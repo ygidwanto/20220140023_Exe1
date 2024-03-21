@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .mountain-info {
+    text-align: center;
+    border: 2px solid #FFD700; /* Warna kuning */
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .info-box {
+    background-color: #6be995;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .info-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    color: #666;
+  }
+  
+  .info-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .info-box button {
+    background-color: #10d416;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .info-box button:hover {
+    background-color: #45a049;
+  }
+  

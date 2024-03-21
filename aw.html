@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gunung Muria</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff2f2; /* Warna latar belakang hitam */
+    }
+    header {
+      background-color: #5f74d3; /* Warna biru langit */
+      color: #101111; /* Warna teks */
+      text-align: center;
+      padding: 20px 0;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .mountain-info {
+      background-color: #85b6f1; /* Warna hijau muda */
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .info-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .info-box h2 {
+      margin-bottom: 10px;
+    }
+    .info-box img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    p1, p2 {
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    p1:hover, p2:hover {
+      transform: scale(1.1); /* Mengubah skala teks saat dihover */
+    }
+    button {
+      background-color: #333; /* Warna tombol */
+      color: #fff; /* Warna teks tombol */
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #555; /* Warna tombol saat dihover */
+    }
+    footer {
+      background-color: #333; /* Warna abu-abu */
+      color: #fff; /* Warna teks */
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gunung Muria</h1>
+  </header>
+  
+  <main>
+    <section id="content">
+      <div class="mountain-info">
+        <div class="info-box">
+          <h2>Informasi Unik Seputar Gunung Muria</h2>
+          <p1>Gunung Muria adalah gunung berapi kerucut di Jawa Tengah, Indonesia. Terletak di antara Kabupaten Kudus, Jepara, dan Pati. Dengan ketinggian sekitar 1.602 meter di atas permukaan laut, Gunung Muria merupakan destinasi populer untuk pendaki gunung yang menawarkan pemandangan alam yang memukau.</p1>
+          <p2>Terdapat Banyak Peninggalan Bersejarah Berdasarkan hasil inventarisasi BPCB (d/h BP3) Jawa Tengah tahun 1988, di lereng utara Gunung Muria (Jepara) dan di bagian lereng selatannya (Kudus) dijumpai beberapa peninggalan arkeologi. Contohnya, di lereng utara gunung terdapat Candi Angin 1 dan Candi Angin 2, sebuah bangunan berundak yang ada di puncak bukit. Dan 4 buah menhir.</p2>
+          <img src="mur.jpeg" alt="Gunung Muria">
+          <button onclick="showUniqueInfo()">Kepoin Unik</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 yogg web. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    function showUniqueInfo() {
+      alert("Gunung Muria merupakan pegunungan yang tidak aktif yang konon katanya, tidak aktifnya karena karomah dari sunan Muria");
+    }
+  </script>
+</body>
+</html>
